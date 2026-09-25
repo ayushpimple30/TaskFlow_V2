@@ -1,53 +1,107 @@
-<<<<<<< HEAD
-# 🌱 goGreen
+# TaskFlow
 
-With **goGreen**, you can make your profile look like you've been hard at work... even if you haven't. 
-NodeJs script to make commits to the past (or the future) to go green on GitHub.
+A simple and modern task management application designed to help users organize daily tasks, track progress, and manage priorities efficiently.
 
-## About
+## 🚀 Features
 
-**goGreen** helps you create commits on your GitHub profile for any date in the past. Whether you want to fill up your contribution graph or even make cool patterns and artwork.
+- Create and manage tasks
+- Mark tasks as completed
+- Edit existing tasks
+- Delete unwanted tasks
+- Organize tasks by priority
+- Responsive user interface
+- Simple and clean dashboard
 
-## Getting Started
+## 🛠️ Tech Stack
 
-Follow these steps to bring your contribution graph to life:
+- HTML5
+- CSS3
+- JavaScript
+- Node.js
+- Express.js
 
-1. **Clone this repository**
+## 📁 Project Structure
+
+```text
+TaskFlow/
+│
+├── public/
+│   ├── css/
+│   ├── js/
+│   └── images/
+│
+├── routes/
+├── controllers/
+├── views/
+├── server.js
+├── package.json
+└── README.md
+````
+
+## ⚙️ Installation
+
+Clone the repository:
+
 ```bash
-git clone https://github.com/DishantBhere
-cd goGreen
+git clone https://github.com/username/taskflow.git
 ```
-3. **Set up your project**
-Initialize a new Node.js project:
+
+Navigate to the project directory:
+
 ```bash
-npm init -y
-  ```
-3. **Install the required npm modules**
-You'll need a few modules to get everything running smoothly. Install them all with:
-  ```bash
-  npm install moment simple-git random
-  ```
-4. **Create your commit script**
-- Create a JavaScript file to manage your commits.
-- Create a JSON file to store all the commit timestamp data.
+cd taskflow
+```
 
-## Room for Improvement
+Install dependencies:
 
-So, you've got the basics down. What's next?
+```bash
+npm install
+```
 
-- **Custom Patterns:** Experiment with different patterns on your contribution graph. Maybe spell out your name or create some cool designs.
-- **Density Control:** Play around with the number of commits per day to adjust the shades of green.
-- **Input Strings:** Convert input strings to X-Y mapped contributions.
+Start the application:
 
-## npm Modules Used
+```bash
+npm start
+```
 
-- [`moment`](https://www.npmjs.com/package/moment) - Handles date and time manipulation.
-- [`simple-git`](https://www.npmjs.com/package/simple-git) - For easy Git commands.
-- [`random`](https://www.npmjs.com/package/random) - To generate random numbers for the commits.
+The application will be available at:
 
-## Credits
+```text
+http://localhost:3000
+```
 
+## 📸 Screenshots
 
-=======
-# Victor
->>>>>>> 4d5bc380df0a26cbe64ed5f2b0f76d4cf52d55d9
+Add application screenshots here.
+
+## 🔮 Future Improvements
+
+* User authentication
+* Cloud database integration
+* Task reminders
+* Dark mode
+* Drag-and-drop task organization
+* Mobile application
+
+## 🤝 Contributing
+
+Contributions are welcome.
+
+1. Fork the repository
+2. Create a new branch
+3. Make your changes
+4. Commit your changes
+5. Open a pull request
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+## 👨‍💻 Author
+
+AyushPimple
+
+GitHub: [https://github.com/username](https://github.com/username)
+
+```
+```

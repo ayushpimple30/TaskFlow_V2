@@ -99,9 +99,4 @@ This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
 
-AyushPimple
-
-GitHub: [https://github.com/username](https://github.com/username)
-
-```
-```
+GitHub: [ayushpimple30](https://github.com/ayushpimple30)
